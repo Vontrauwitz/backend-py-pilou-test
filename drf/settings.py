@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+fgxcwf@i4rxp9yi+2j8q3grk3193w_x3&30-zafrn%i16-3ol
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','web-production-bb4d.up.railway.app']
 
 
 # Application definition
@@ -143,6 +143,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000'
+    
 ]
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
