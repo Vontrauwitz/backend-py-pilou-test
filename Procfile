@@ -1,1 +1,1 @@
-web: gunicorn drf.wsgi--log-file -
+web: python manage.py migrate && python manage.py collectstatic && gunicorn drf.wsgi
