@@ -78,6 +78,8 @@ WSGI_APPLICATION = 'drf.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# mysql -hcontainers-us-west-177.railway.app -uroot -p6hT2fo4XdiubcPrVI8xE --port 7159 --protocol=TCP railway
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
